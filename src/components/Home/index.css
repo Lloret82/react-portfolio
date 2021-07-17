@@ -1,0 +1,100 @@
+.home {
+    flex-grow: 1;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub{
+    color: black !important;
+    text-transform: lowercase;
+  }
+  
+.main{
+  font-size: 30px;
+  color: rgba(225,225,225, .1);
+  background-image: url("https://s31.postimg.cc/yaze1agjv/abstract-background-canvas-249798.jpg");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-sizxe: cover;
+  -webkit-background-clip:text;
+  animation: animate 60s linear infinite;
+  text-align: center;
+  margin-top: 17%;
+  text-transform: uppercase;
+  font-weight: 900;
+ 
+}
+
+@keyframes animate {
+  0%{
+    background-position: left 0px top 10px;
+  }
+  40%{
+    background-position: left 800px top 10px;
+}}
+  
+  .home .title {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Righteous", cursive;
+  }
+  
+  .home .title p {
+    line-height: 50px;
+    font-family: "Righteous", cursive;
+    color: white;
+  }
+  
+  .home .title button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 30px;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 999px;
+    background-color: black;
+    font-family: "Righteous", cursive;
+
+  }
+  
+  .home .person {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .home .person img {
+    width: 70%;
+    border:2px solid #fff;
+      box-shadow: 10px 10px 5px black;
+      -moz-box-shadow: 10px 10px 5px black;
+      -webkit-box-shadow: 10px 10px 5px black;
+      -khtml-box-shadow: 10px 10px 5px black;
+      display: flex;
+      margin: 0 auto;
+  }
+
+  .button:hover{
+      transform: scale(1.1);
+  }
+  
+  @media (min-width: 800px) {
+    .home {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .home .title,
+    .home .person {
+      width: 50%;
+      margin-top: 0;
+      text-align: left;
+      font-size: 25px;
+    }
+    .home .person img {
+      width: 100%;
+    }
+  }
