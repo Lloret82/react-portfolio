@@ -33,7 +33,7 @@ const NavBar = () => {
         <div className="logo">
           <Link to="/">
             <img
-              src="/logo.png"
+              src="https://i.ibb.co/CVnW7Pj/logo.png"
               alt="brand"
             />
           </Link>
@@ -100,6 +100,15 @@ const NavBar = () => {
                 style={{ color: location.pathname === "/contact" && "#4071f4" }}
               >
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/portfolio"
+                onClick={handleClose}
+                style={{ color: location.pathname === "/portfolio" && "#4071f4" }}
+              >
+                Portfolio
               </Link>
             </li>
           </ul>
