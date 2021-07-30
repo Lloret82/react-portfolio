@@ -29,11 +29,11 @@ const Portfolio = () => {
               your project, and make them become real!!! The portal is free and
               open to everyone.
             </p>
-            <button type="button" class="simple">
-              <a href="https://github.com/Lloret82/wrkwith-app">GitHub Repo</a>
+            <button type="button" class="custom-btn btn-3">
+              <a href="https://github.com/Lloret82/wrkwith-app"><span>GitHub Repo</span></a>
             </button>
-            <button type="button" class="simple2">
-              <a href="https://wrkwith-app.herokuapp.com/">Live Website</a>
+            <button type="button" class="custom-btn btn-3">
+              <a href="https://wrkwith-app.herokuapp.com/"><span>Live Website</span></a>
             </button>
           </div>
         </a>
@@ -60,15 +60,15 @@ const Portfolio = () => {
               </div>
             </div>
             <p className="card__description">
-              A simple dashboard using OpenWeather API to retrieve weather data
+              A custom-btn btn-3 dashboard using OpenWeather API to retrieve weather data
               for cities that are searched by user. Use of localStorage to store
               any cities that have been searched before
             </p>
-            <button type="button" class="simple">
-              <a href="https://github.com/Lloret82/Weather_Forecast_Dashboard">GitHub Repo</a>
+            <button type="button" class="custom-btn btn-3">
+              <a href="https://github.com/Lloret82/Weather_Forecast_Dashboard"><span>GitHub Repo</span></a>
             </button>
-            <button type="button" class="simple2">
-              <a href="https://lloret82.github.io/Weather_Forecast_Dashboard/">Live Website</a>
+            <button type="button" class="custom-btn btn-3">
+              <a href="https://lloret82.github.io/Weather_Forecast_Dashboard/"><span>Live Website</span></a>
             </button>
           </div>
         </a>
@@ -99,11 +99,11 @@ const Portfolio = () => {
               track of your expenses and income. The app dashboard will display
               a graphs of your wallet. Very Helpful!
             </p>
-            <button type="button" class="simple">
-              <a href="https://github.com/Lloret82/progressive_budget">GitHub Repo</a>
+            <button type="button" class="custom-btn btn-3">
+              <a href="https://github.com/Lloret82/progressive_budget"><span>GitHub Repo</span></a>
             </button>
-            <button type="button" class="simple2">
-              <a href="https://progressive-budget-lloret82.herokuapp.com/">Live Website</a>
+            <button type="button" class="custom-btn btn-3">
+              <a href="https://progressive-budget-lloret82.herokuapp.com/"><span>Live Website</span></a>
             </button>
           </div>
         </a>
@@ -135,11 +135,11 @@ const Portfolio = () => {
               Spoonacular database of 5000+ recipes and returns 4 recipes to
               display to the end user.
             </p>
-            <button type="button" class="simple">
-              <a href="https://github.com/Lloret82/Yummy_Fridge">GitHub Repo</a>
+            <button type="button" class="custom-btn btn-3">
+              <a href="https://github.com/Lloret82/Yummy_Fridge"><span>GitHub Repo</span></a>
             </button>
-            <button type="button" class="simple2">
-              <a href="https://lloret82.github.io/Yummy_Fridge">Live Website</a>
+            <button type="button" class="custom-btn btn-3">
+              <a href="https://lloret82.github.io/Yummy_Fridge"><span>Live Website</span></a>
             </button>
           </div>
         </a>
@@ -171,11 +171,11 @@ const Portfolio = () => {
               weekly summary graphs of all workouts done in a week. Work Hard
               for better results!
             </p>
-            <button type="button" class="simple">
-              <a href="https://github.com/Lloret82/Fitness-Tracker">GitHub Repo</a>
+            <button type="button" class="custom-btn btn-3">
+              <a href="https://github.com/Lloret82/Fitness-Tracker"><span>GitHub Repo</span></a>
             </button>
-            <button type="button" class="simple2">
-              <a href="https://lloret82-fitness-tracker.herokuapp.com/">Live Website</a>
+            <button type="button" class="custom-btn btn-3">
+              <a href="https://lloret82-fitness-tracker.herokuapp.com/"><span>Live Website</span></a>
             </button>
           </div>
         </a>
@@ -207,11 +207,11 @@ const Portfolio = () => {
               password hashing and storage as well as the ability to login.
               Users can view all posts, or go to their dashboards.
             </p>
-            <button type="button" class="simple">
-              <a href="https://github.com/Lloret82/Tech-Blog">GitHub Repo</a>
+            <button type="button" class="custom-btn btn-3">
+              <a href="https://github.com/Lloret82/Tech-Blog"><span>GitHub Repo</span></a>
             </button>
-            <button type="button" class="simple2">
-              <a href="https://tech-blog-uom.herokuapp.com/">Live Website</a>
+            <button type="button" class="custom-btn btn-3">
+              <a href="https://tech-blog-uom.herokuapp.com/"><span>Live Website</span></a>
             </button>
           </div>
         </a>
