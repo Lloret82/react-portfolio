@@ -18,6 +18,7 @@ const About = () => {
           <li>Express.js</li>
           <li>Material-ui</li>
           <li>React.js</li>
+          <li>Next.js</li>
         </div>
         <div>
           <strong>Tools:</strong>

@@ -90,7 +90,7 @@ const NavBar = () => {
                 onClick={handleClose}
                 style={{ color: location.pathname === "/works" && "#4071f4" }}
               >
-                Works
+                Resume
               </Link>
             </li>
             <li>
